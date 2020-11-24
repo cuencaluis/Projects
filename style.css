@@ -1,0 +1,70 @@
+html,
+body {
+  width: 50%;
+  margin: 0 auto;
+  font-family: cursive;
+  position: relative;
+  background-color: darkgoldenrod;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container {
+  width: 360px;
+}
+#akosi {
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+}
+#Todo {
+  height: 44px;
+  width: 44px;
+  border: 2px solid black;
+  border-radius: 10px;
+  outline: none;
+  vertical-align: middle;
+  font-size: 15px;
+  position: relative;
+  left: 9px;
+  cursor: pointer;
+  font-family: cursive;
+}
+#Todo:hover {
+  color: black;
+  background-color: gold;
+}
+
+.to-dos {
+  margin-top: 25px;
+}
+.paragraph-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: cursive;
+}
+h3 {
+  position: relative;
+  float: right;
+  top: 250px;
+  left: 340px;
+  font-size: 16px;
+}
+#inputField {
+  font-family: cursive;
+  background-color: darkgoldenrod;
+  border-radius: 10px;
+  outline: none;
+}
+h6 {
+  position: relative;
+  left: 34%;
+  bottom: 30px;
+}
