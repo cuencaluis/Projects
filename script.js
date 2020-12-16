@@ -4,7 +4,7 @@ let inputField = document.getElementById("inputField");
 
 addToButton.addEventListener("click", function(){
     var paragraph = document.createElement("p");
-    paragraph.innerText = "·"+inputField.value;
+    paragraph.innerText = "╚ "+inputField.value;
     if(inputField.value.length == 0){
         return;
     }
@@ -26,5 +26,10 @@ function play(){
     sound.play();
 
 }
+function DeleteAll() {
+    
+    todoContainer.innerText = "";
 
+
+}
 
